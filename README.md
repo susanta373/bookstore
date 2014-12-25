@@ -1,0 +1,4 @@
+bookstore
+=========
+
+Project for trainings
