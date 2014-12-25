@@ -1,0 +1,27 @@
+{
+  "name": "bookstore",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Juriy/bookstore",
+  "authors": [
+    "Juriy Bura <juriy.bura@gmail.com>"
+  ],
+  "description": "A sample bookstore app for trainings",
+  "main": "main.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "Angular.js",
+    "Node.js",
+    "JavaScript",
+    "REST"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/vnd",
+    "test",
+    "tests"
+  ]
+}

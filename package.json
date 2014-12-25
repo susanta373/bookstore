@@ -1,0 +1,25 @@
+{
+  "name": "bookstore",
+  "version": "0.0.1",
+  "description": "A sample bookstore app for trainings",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Juriy/bookstore.git"
+  },
+  "keywords": [
+    "Angular.js",
+    "Node.js",
+    "JavaScript",
+    "REST"
+  ],
+  "author": "Juriy Bura <juriy.bura@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Juriy/bookstore/issues"
+  },
+  "homepage": "https://github.com/Juriy/bookstore"
+}
