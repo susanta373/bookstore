@@ -28,3 +28,4 @@ public/vnd
 
 # Users Environment Variables
 .lock-wscript
+.DS_Store
