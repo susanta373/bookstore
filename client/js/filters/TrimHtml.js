@@ -7,7 +7,7 @@
 	function trimHtmlFilter() {
 		return function(html) {
 			return html ? html.replace(/<(?:.|\n)*?>/gm, '') : '';
-		}
+		};
 	}
 
 })();

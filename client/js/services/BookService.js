@@ -26,7 +26,7 @@
 			});
 
 			return deferred.promise;
-		}
+		};
 
 		this.getBook = function(id) {
 			// Returning promise as-is
@@ -34,6 +34,6 @@
 				url: '/api/books/' + id,
 				method: 'GET'
 			});
-		}
+		};
 	}
 })();

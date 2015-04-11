@@ -7,8 +7,14 @@
 	function limitByFilter() {
 		return function(text, maxLen) {
 			var cut = text.substr(0, maxLen);
-			return cut.substr(0, Math.min(cut.length, cut.lastIndexOf(' ')));
-		}
+
+			var lastSpace = cut.lastIndexOf(' ');
+			if (lastSpace === -1) {
+				lastSpace = cut.length;
+			}
+
+			return cut.substr(0, lastSpace);
+		};
 	}
 
 })();

@@ -10,6 +10,6 @@
 			.then(function(result) {
 				$scope.books = result.books;
 			});
-	};
+	}
 
 })();
